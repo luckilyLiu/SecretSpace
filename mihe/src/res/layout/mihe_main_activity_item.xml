@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:paddingTop="23dp"
+  android:gravity="center_horizontal"
+  tools:background="@color/app_theme_color"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="51dp"
+    android:layout_height="51dp">
+    <v.VImage
+      android:id="@+id/image_item"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+    <ImageView
+      android:id="@+id/image_hide_icon"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:src="@drawable/mihe_main_adapter_hide_icon"
+      android:layout_width="12dp"
+      android:layout_height="12dp"/>
+  </RelativeLayout>
+
+
+  <v.VText
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:id="@+id/tv_item_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.6"
+    android:textSize="12dp"
+    android:maxLines="1"
+    android:layout_marginTop="10dp"
+    android:textColor="#FFFFFF"
+    android:text="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/mihe_shape_detail_input">
+
+  <ImageView
+    android:id="@+id/img_close"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="12dp"
+    android:src="@drawable/mihe_icon_close" />
+
+
+  <LinearLayout
+    android:id="@+id/ll_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_close"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <View
+      android:layout_width="7dp"
+      android:layout_height="7dp"
+      android:background="@drawable/mihe_feedback_score_dot" />
+
+    <v.VText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:text="@string/mihe_feedback_score_please_rate_our_app"
+      android:textColor="@color/white"
+      android:textSize="17dp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/ll_score_img"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ll_title"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="23dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginBottom="40dp"
+    android:orientation="horizontal">
+
+    <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+      android:id="@+id/ll_score_img_1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:maxHeight="32dp"
+      android:src="@drawable/mihe_feedback_score_selector"
+      app:mihe_ratio_height="1"
+      app:mihe_ratio_width="1" />
+
+
+    <View
+      android:layout_width="9.5dp"
+      android:layout_height="0dp" />
+
+
+    <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+      android:id="@+id/ll_score_img_2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:maxHeight="32dp"
+      android:src="@drawable/mihe_feedback_score_selector"
+      app:mihe_ratio_height="1"
+      app:mihe_ratio_width="1" />
+
+    <View
+      android:layout_width="9.5dp"
+      android:layout_height="0dp" />
+
+
+    <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+      android:id="@+id/ll_score_img_3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:maxHeight="32dp"
+      android:src="@drawable/mihe_feedback_score_selector"
+      app:mihe_ratio_height="1"
+      app:mihe_ratio_width="1" />
+
+    <View
+      android:layout_width="9.5dp"
+      android:layout_height="0dp" />
+
+
+    <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+      android:id="@+id/ll_score_img_4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:maxHeight="32dp"
+      android:src="@drawable/mihe_feedback_score_selector"
+      app:mihe_ratio_height="1"
+      app:mihe_ratio_width="1" />
+
+    <View
+      android:layout_width="9.5dp"
+      android:layout_height="0dp" />
+
+
+    <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+      android:id="@+id/ll_score_img_5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:maxHeight="32dp"
+      android:src="@drawable/mihe_feedback_score_selector"
+      app:mihe_ratio_height="1"
+      app:mihe_ratio_width="1" />
+  </LinearLayout>
+</RelativeLayout>

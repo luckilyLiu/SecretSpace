@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/app_theme_color">
+
+  <com.hello.mihe.app.launcher.view.widget.AspectRatioImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icon_mihe_top_bg"
+    app:mihe_ratio_height="750"
+    app:mihe_ratio_width="580" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="10dp">
+
+      <v.VText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/derived_app_name"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="500"
+        android:textSize="22dp" />
+
+      <ImageView
+        android:clickable="true"
+        android:id="@+id/img_menu"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/mihe_main_muen_top_right" />
+    </RelativeLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="6dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="15dp"
+      android:alpha="0.4"
+      android:background="@drawable/mihe_main_top_shape" />
+
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+      <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="171dp"
+        android:clipToPadding="false"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+      </androidx.recyclerview.widget.RecyclerView>
+
+      <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_no_hide_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_click_to_hide_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:text="@string/mihe_unhide_app_yet"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="600"
+        android:textSize="22dp" />
+
+      <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_click_to_hide_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_add_app_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:alpha="0.6"
+        android:text="@string/mihe_tap_hide_app"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+      <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_add_app_1"
+        android:layout_width="186dp"
+        android:layout_height="186dp"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mihe_add_hide_app" />
+
+      <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_add_app_2"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mihe_add_hide_app" />
+
+    </RelativeLayout>
+
+
+  </LinearLayout>
+</FrameLayout>

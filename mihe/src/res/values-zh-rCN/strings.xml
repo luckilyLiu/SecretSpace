@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="derived_app_name">隐藏大师</string>
+  <string name="user_privacy_policy">用户使用协议</string>
+  <string name="user_privacy_policy_accept">同意</string>
+  <string name="user_privacy_policy_decline">暂不同意</string>
+  <string name="PRIVACY_POLICY_DLG_USER_AGREEMENT">《用户协议》</string>
+  <string name="PRIVACY_POLICY_DLG_PRIVACY_POLICY">《隐私政策》</string>
+  <string name="prompt_popup_title">温馨提示</string>
+  <string name="prompt_popup_description">亲，要不再想想?</string>
+  <string name="prompt_popup_confirm">再次查看</string>
+  <string name="prompt_popup_cancel">退出</string>
+  <string name="PRIVACY_POLICY_DLG_FIRST_CONTENT_WITH_LINK">在使用隐藏大师前，请认真阅读并了解%1$s和%2$s，点击同意即表示你已阅读并同意全部条款。</string>
+  <string name="mihe_main_setting">桌面设置</string>
+  <string name="mihe_main_hide_app">应用隐藏</string>
+  <string name="mihe_set_default_launcher_tile">请设置默认桌面</string>
+  <string name="mihe_set_default_launcher_desc">为了使“隐藏大师”正常工作，请设置“隐藏大师”为默认桌面</string>
+  <string name="mihe_set_default_launcher_desc_1">为了隐藏app，请设置“隐藏大师”为默认桌面</string>
+  <string name="mihe_set_default_launcher_comfirm">确定</string>
+  <string name="mihe_set_default_launcher_cancel">取消</string>
+  <string name="mihe_choose_app">选择应用</string>
+  <string name="mihe_search_hint">搜索需要隐藏的应用</string>
+  <string name="mihe_most_used_app">推荐应用</string>
+  <string name="mihe_show_get_installed_app_tip">添加需隐身或双开的应用时需获取已安装的应用信息，请您在权限管理里找到【获取应用列表】权限并开启。</string>
+  <string name="mihe_incompatibility_open_now">立即开启</string>
+  <string name="mihe_back_to_old_launcher_title">警告</string>
+  <string name="mihe_back_to_old_launcher_desc">恢复到原始主屏幕将显示已隐藏的应用程序。你要继续吗？</string>
+  <string name="mihe_back_to_old_launcher_comfirm">恢复</string>
+  <string name="mihe_back_to_old_launcher_cancel">取消</string>
+  <string name="mihe_unselect_app">请您至少选择一个应用</string>
+  <string name="mihe_restore_home_screen">切回原桌面</string>
+  <string name="mihe_long_press_to_unhide">长按取消隐藏</string>
+  <string name="mihe_unhide_app_yet">你还没有隐藏应用</string>
+  <string name="mihe_tap_hide_app">点击按钮隐藏app</string>
+  <string name="mihe_hide_state_disable">隐藏已失效\n请设置%1$s为默认桌面</string>
+  <string name="mihe_hide_state_comfirm">确定</string>
+  <string name="mihe_hide_state_cancel">取消</string>
+  <string name="mihe_select_app">为了隐藏app</string>
+  <string name="mihe_select_app_content">请设置“隐藏大师”为您的手机桌面</string>
+  <string name="mihe_hide_app_button">隐藏应用</string>
+  <string name="mihe_unhide_app_button">取消隐藏</string>
+  <string name="mihe_unhide_app_successful">取消隐藏成功</string>
+  <string name="mihe_launcher_popup_guide">您可以在“隐藏大师”中查看隐藏的应用</string>
+  <string name="mihe_hide_app_success_tip_txt">隐藏成功\n通知消息仍会正常显示</string>
+  <string name="mihe_feedback_score_please_rate_our_app">请您对我们的app进行评分</string>
+  <string name="mihe_update_go_to_market">应用商店</string>
+  <string name="mihe_collect_problem_title">意见反馈</string>
+  <string name="mihe_feedback_collect_problem_reason">您不满意的原因是？</string>
+  <string name="mihe_feedback_more_suggestions">更多建议</string>
+  <string name="mihe_feedback_collect_more_problem_reason_tip">很抱歉给您带来不好的体验，我们非常欢迎您给出意见以帮助我们优化app。</string>
+  <string-array name="mihe_feedback_default_reason">
+    <item>无法实现隐藏</item>
+    <item>无法实现双开</item>
+    <item>App崩溃</item>
+    <item>添加的app打开崩溃</item>
+    <item>广告多</item>
+    <item>会员价格贵</item>
+    <item>添加的app运行太慢</item>
+  </string-array>
+  <string name="mihe_collect_problem_thank_you_for_your_feedback">感谢您的反馈</string>
+  <string name="mihe_network_error">网络有问题，请稍后重试。</string>
+  <string name="mihe_collect_problem_please_select_reason">请选择原因或给出建议</string>
+  <string name="mihe_continue">继续</string>
+</resources>
+
+

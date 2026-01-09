@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.SandBox.v31" parent="Theme.SandBox">
+    <!--启动画面背景颜色-->
+    <item name="android:windowSplashScreenBackground">@color/app_theme_color</item>
+    <!-- 启动画面icon图标：这里可以是图片、帧动画等-->
+    <item name="android:windowSplashScreenAnimatedIcon">@color/app_theme_color</item>
+    <item name="android:windowSplashScreenIconBackgroundColor">@color/app_theme_color</item>
+    <!-- icon动画在关闭之前显示的时长：最长时间为1000毫秒-->
+    <item name="android:windowSplashScreenAnimationDuration">100</item>
+    <!-- 启动画面底部的 Brand 图片-->
+    <item name="android:windowSplashScreenBrandingImage">@color/app_theme_color</item>
+  </style>
+
+  <style name="WelcomeTheme" parent="Theme.SandBox.v31">
+    <item name="android:windowBackground">@drawable/mihe_splash</item>
+  </style>
+  <style name="mihe_default_theme" parent="Theme.SandBox.v31">
+    <item name="android:windowBackground">@color/app_theme_color</item>
+  </style>
+
+</resources>
