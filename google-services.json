@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:716442668392:android:3323dc43830b4f60a61add",
+        "mobilesdk_app_id": "5432",
         "android_client_info": {
           "package_name": "com.hello.mihe.app.launcher"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCnJYYw4PfMWYhaM9BtvS_g4NYGsyUFZ6k"
+          "current_key": "1234"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:716442668392:android:91ab0e5825942d3ba61add",
+        "mobilesdk_app_id": "4321",
         "android_client_info": {
           "package_name": "com.hello.miheapp.secretspace"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCnJYYw4PfMWYhaM9BtvS_g4NYGsyUFZ6k"
+          "current_key": "2345"
         }
       ],
       "services": {
@@ -42,7 +42,7 @@
           "other_platform_oauth_client": []
         }
       },
-      "admob_app_id": "ca-app-pub-2982899253625646~2512403024"
+      "admob_app_id": "3456"
     }
   ],
   "configuration_version": "1"
